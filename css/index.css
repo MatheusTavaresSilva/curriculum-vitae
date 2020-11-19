@@ -1,0 +1,363 @@
+:root{
+    font-size: 16px;
+    font-family:Calibri;
+    --header-background-color: rgb(22, 219, 147);
+
+
+    --pry-bg-color: rgb(61, 90, 128);
+    --sec-bg-color: rgb(40, 58, 83);
+}
+
+body{
+    margin:0;
+    border:0;
+}
+
+@media (max-width: 426px){
+    .header{
+        margin: 1rem auto; 
+
+        width: 80%;
+
+        background-color: var(--pry-bg-color);
+
+        padding: 5% 0%;
+
+        border-radius: 1rem;
+
+
+        box-shadow: 0px 0px 5px black;
+    }
+
+    .profile-card{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 80%;
+
+        border-radius: 1rem;
+
+        background-color: white;
+
+        padding: 2.5% 0;
+
+        box-shadow: 0px 0px 10px black;
+
+        margin: auto;
+        
+    }
+
+    .svg{
+        width: 50%;
+
+        max-height: 10rem;
+        
+    }
+
+    .adrress-svg{
+        min-width: 1.5rem;
+        max-height: 1.5rem;
+
+        min-width: 1.5rem;
+        min-height: 1.5rem;
+
+        margin-right: 5%;
+    }
+
+    .contact-card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .address{
+        width: 80%;
+        margin: auto;
+
+        color: snow;
+        text-shadow: .5px .5px 1px black;
+    }
+
+    .adrress-h3{
+        border-bottom: 1.5px solid snow;
+    }
+
+    main{
+        width: 80%;
+        margin: auto;
+    }
+
+    .experiencie-card{
+        border-bottom: 1px solid black;
+    }
+
+    .division{
+        border-bottom: black 1px solid;
+        
+        box-sizing: border-box;
+
+        box-shadow: 0.5px 0.5px 5px black;
+
+        border-radius: 5px;
+
+        padding: 0.5rem;
+
+        margin: 1rem 0
+
+    }
+
+    .division h2{
+        margin: 0;
+    }
+
+    .division ul{
+        padding: 0;
+        list-style: none;
+
+        font-weight: bolder;
+    }
+
+    a{
+        text-decoration: none;
+        
+        font-style: normal;
+
+        color: white;
+    }
+}
+
+@media (min-width: 426px) and (max-width:1023px){
+    .header{
+
+        width: 100%;
+
+        background-color: var(--pry-bg-color);
+
+        padding: 5% 0%;
+    }
+
+    .profile-card{
+        
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 80%;
+
+        border-radius: 1rem;
+
+        background-color: white;
+
+        padding: 2.5% 0;
+
+        box-shadow: 0px 0px 10px black;
+
+        margin: auto;
+        
+    }
+
+    .svg{
+        width: 50%;
+
+        max-height: 10rem;
+        
+    }
+
+    .adrress-svg{
+        min-width: 1.5rem;
+        max-height: 1.5rem;
+
+        min-width: 1.5rem;
+        min-height: 1.5rem;
+
+        margin-right: 5%;
+    }
+
+    .contact-card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .address{
+        width: 80%;
+        margin: auto;
+
+        color: snow;
+        text-shadow: .5px .5px 1px black;
+    }
+
+    .adrress-h3{
+        border-bottom: 1.5px solid snow;
+    }
+
+    main{
+        width: 80%;
+        margin: auto;
+    }
+
+    .experiencie-card{
+        border-bottom: 1px solid black;
+    }
+
+    .division{
+        border-bottom: black 1px solid;
+        
+        box-sizing: border-box;
+
+        box-shadow: 0.5px 0.5px 5px black;
+
+        border-radius: 5px;
+
+        padding: 0.5rem;
+
+        margin: 1rem 0
+
+    }
+
+    .division h2{
+        margin: 0;
+    }
+
+    .division ul{
+        padding: 0;
+        list-style: none;
+
+        font-weight: bolder;
+    }
+
+    a{
+        text-decoration: none;
+        
+        font-style: normal;
+
+        color: white;
+    }
+}
+
+@media (min-width: 1024px){
+    .header{
+
+        position: fixed;
+
+        width: 25%;
+
+        background-color: var(--pry-bg-color);
+
+        padding: 5% 0%;
+
+        height: 100vh;
+    }
+
+    .profile-card{
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        text-align: center;
+
+        width: 80%;
+
+        border-radius: 1rem;
+
+        background-color: white;
+
+        padding: 2.5% 0;
+
+        box-shadow: 0px 0px 10px black;
+
+        margin: auto;
+        
+    }
+
+    .svg{
+        width: 50%;
+
+        max-height: 10rem;
+        
+    }
+
+    .adrress-svg{
+        min-width: 1.5rem;
+        max-height: 1.5rem;
+
+        min-width: 1.5rem;
+        min-height: 1.5rem;
+
+        margin-right: 5%;
+    }
+
+    .contact-card{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+    }
+
+    .address{
+        width: 80%;
+        margin: auto;
+
+        color: snow;
+        text-shadow: .5px .5px 1px black;
+    }
+
+    .adrress-h3{
+        border-bottom: 1.5px solid snow;
+    }
+
+    main{
+        width: 75%;
+
+        margin-left: 25%;
+
+        padding: 1rem;
+
+        box-sizing: border-box;
+    }
+
+    .experiencie-card{
+        border-bottom: 1px solid black;
+    }
+
+    .division{
+        border-bottom: black 1px solid;
+        
+        box-sizing: border-box;
+
+        box-shadow: 0.5px 0.5px 5px black;
+
+        border-radius: 5px;
+
+        padding: 0.5rem;
+
+        margin: 1rem 0
+
+    }
+
+    .division h2{
+        margin: 0;
+    }
+
+    .division ul{
+        padding: 0;
+        list-style: none;
+
+        font-weight: bolder;
+    }
+
+    a{
+        text-decoration: none;
+        
+        font-style: normal;
+
+        color: white;
+
+        line-break: auto;
+    }
+}
