@@ -1,2 +1,3 @@
 # curriculum vitae
- Aplicação trio HTML/CSS/JS
+ Aplicação HTML/CSS
+ 
